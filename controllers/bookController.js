@@ -9,7 +9,7 @@ const {
     createBook,
     deleteBook,
     updateBook,
-} = require("../queries/books.js")
+} = require("../queries/books")
 
 const { checkName, checkFavorite, checkRead, checkURL } = require("../validations/checkBooks.js")
 
@@ -48,7 +48,7 @@ books.post("/", checkName, checkFavorite, checkRead, checkURL, async (req, res) 
 books.delete("/:id", async (req, res) =>{
     const { id } = req.params;
     const deletedBook = await deleteBook(id);
-    if (bookDelete.id) {
+    if (deletedBook.id) {
         res.status(200).json(deletedBook)
     } else {
         res.status(404).json("Book unfound")

@@ -12,12 +12,12 @@ CREATE TABLE books (
     release_year INTEGER,
     has_read BOOLEAN,
     pages INTEGER,
-    favorite BOOLEAN, 
+    favorite BOOLEAN 
 );
 
 CREATE TABLE reviews (
     id SERIAL PRIMARY KEY,
-    commenter TEXT,
+    reviewer TEXT,
     rating INTEGER CHECK (rating >= 1 AND rating <= 5),
     content TEXT,
     book_id INTEGER REFERENCES books (id)
