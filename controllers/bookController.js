@@ -1,7 +1,7 @@
 const express = require("express");
 const books = express.Router();
-const commentsController = require("./commentsController.js");
-books.use("/:bookId/comments", commentsController);
+const reviewsController = require("./reviewsController.js");
+books.use("/:bookId/reviews", reviewsController);
 
 const {
     getAllBooks,

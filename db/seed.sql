@@ -18,7 +18,7 @@ INSERT INTO books (book, author, image, genre, release_year, has_read, pages, fa
 ;
 
 
-INSERT INTO comments (book_id, commenter, rating, content) VALUES
+INSERT INTO reviews (book_id, reviewer, rating, content) VALUES
 (7, 'Frantz', 5, 'One of the scariest book I ever read in my life'),
 (1, 'Kelsea', 5, 'This is perhaps my favorite book in the Harry Potter series'),
 (5, 'Andre', 1, 'This book is a snore'),

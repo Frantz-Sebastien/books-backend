@@ -15,7 +15,7 @@ CREATE TABLE books (
     favorite BOOLEAN, 
 );
 
-CREATE TABLE comments (
+CREATE TABLE reviews (
     id SERIAL PRIMARY KEY,
     commenter TEXT,
     rating INTEGER CHECK (rating >= 1 AND rating <= 5),
