@@ -11,7 +11,7 @@ CREATE TABLE books (
     genre TEXT,
     release_year INTEGER,
     has_read BOOLEAN,
-    pages INTEGER,
+    price INTEGER,
     favorite BOOLEAN 
 );
 
