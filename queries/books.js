@@ -32,7 +32,7 @@ const createBook = async (book) =>{
                 book.genre, 
                 book.release_year, 
                 book.has_read, 
-                book.price, 
+                book.price,
                 book.favorite
             ]
         )
