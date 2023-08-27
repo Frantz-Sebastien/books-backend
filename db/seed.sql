@@ -10,7 +10,7 @@
 INSERT INTO books (book, author, image, genre, release_year, has_read, price, favorite) VALUES
 ('Harry Potter and the Half-Blood Prince', 'J.K. Rowling','https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg', 'fantasy', 2005, true, 17, true),
 ('Romeo and Juliette', 'William Shakespeare', 'https://m.media-amazon.com/images/I/41uJIT8vkrL._SX322_BO1,204,203,200_.jpg', 'tragedy', 1597, true, 7, false),
-('The Hunger Games', 'Suzanne Collins','https://images.csmonitor.com/csmarchives/2010/08/47479711.JPG?alias=standard_900x600','science fiction', 2008, true, 9, true),
+('The Hunger Games', 'Suzanne Collins','https://m.media-amazon.com/images/I/71WSzS6zvCL._AC_UF894,1000_QL80_.jpg','science fiction', 2008, true, 9, true),
 ('Batman: Hush', 'Jeph Loeb', 'https://m.media-amazon.com/images/I/A1Gb8vuZiCL._AC_UF1000,1000_QL80_.jpg', 'superhero', 2002, true, 21, true ),
 ('Oliver Twist', 'Charles Dickens', 'https://m.media-amazon.com/images/I/91ZLjkG+YNL._AC_UF1000,1000_QL80_.jpg', 'fiction', 1838, false, 8, false),
 ('Titeuf et le derrière des choses', 'Zep', 'https://m.media-amazon.com/images/I/81vq0SQhIGL._AC_UF1000,1000_QL80_.jpg', 'comedy', 1996, true, 19, true),
